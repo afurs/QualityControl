@@ -6,6 +6,7 @@
 #pragma link C++ class o2::quality_control_modules::ft0::EventWithChannelData + ;
 
 #pragma link C++ class o2::quality_control_modules::ft0::DigitQcTask + ;
+#pragma link C++ class o2::quality_control_modules::ft0::DigitQcTaskOld + ;
 #pragma link C++ class o2::quality_control_modules::ft0::MergedTreeCheck + ;
 #pragma link C++ class o2::quality_control_modules::ft0::PostProcTask + ;
 #pragma link C++ class o2::quality_control_modules::ft0::GenericCheck + ;

@@ -5,6 +5,7 @@ add_library(O2QcFT0)
 target_sources(O2QcFT0 PRIVATE src/TH1ReductorLaser.cxx
                                src/DigitQcTaskLaser.cxx
                                src/DigitQcTask.cxx
+                               src/DigitQcTaskOld.cxx
                                src/GenericCheck.cxx
                                src/CFDEffCheck.cxx
                                src/FractionCheck.cxx
@@ -35,6 +36,7 @@ add_root_dictionary(O2QcFT0
   HEADERS include/FT0/TH1ReductorLaser.h
           include/FT0/DigitQcTaskLaser.h
           include/FT0/DigitQcTask.h
+          include/FT0/DigitQcTaskOld.h
           include/FT0/PostProcTask.h
           include/FT0/CFDEffCheck.h
           include/FT0/FractionCheck.h
