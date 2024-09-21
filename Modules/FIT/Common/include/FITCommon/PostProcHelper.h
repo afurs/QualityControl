@@ -117,7 +117,7 @@ class PostProcHelper
       mTimestampAnchor = mCurrTrigger.timestamp;
     } else if (mTimestampSource == "validUntil") {
       mTimestampAnchor = mCurrTrigger.activity.mValidity.getMax();
-    } else if (mTimestampSource == "metadata") {
+    } else if (moMetadata && mTimestampSource == "metadata") {
       const auto iterMetadata = moMetadata->getMetadataMap().find(mTimestampMetaField);
       const bool isFound = iterMetadata != moMetadata->getMetadataMap().end();
       if (isFound) {
